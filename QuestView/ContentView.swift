@@ -1,22 +1,23 @@
-//
-//  ContentView.swift
-//  QuestView
-//
-//  Created by s s on 7/29/25.
-//
-
 import SwiftUI
+import UIKit
 
 struct ContentView: View {
+
     var body: some View {
         VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+        
+            NavigationStack {
+                
+                FruitListView().ignoresSafeArea(.all)
+            }
+            
         }
-        .padding()
+        
+        
+        
+        
     }
+    
 }
 
 #Preview {
