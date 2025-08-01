@@ -16,3 +16,24 @@ struct FruitListView: UIViewControllerRepresentable {
         // 예: SwiftUI의 @State 변수가 바뀔 때 UIKit 뷰를 업데이트하고 싶다면 여기에 코드를 작성합니다.
     }
 }
+
+struct IphoneListView: UIViewControllerRepresentable {
+    
+    func makeUIViewController(context: Context) -> iphoneListViewController {
+        return iphoneListViewController()
+    }
+ 
+    func updateUIViewController(_ uiViewController: iphoneListViewController, context: Context) {
+        
+    }
+}
+
+struct FruitDeleteAddView: UIViewControllerRepresentable {
+    func makeUIViewController(context: Context) -> addOrRemoveViewController {
+        return addOrRemoveViewController()
+    }
+    
+    func updateUIViewController(_ uiViewController: addOrRemoveViewController, context: Context) {
+        
+    }
+}

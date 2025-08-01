@@ -1,23 +1,26 @@
 import SwiftUI
 import UIKit
 
-struct ContentView: View {
 
+
+
+struct ContentView: View {
+    
+    
+    
     var body: some View {
         VStack {
-        
-            NavigationStack {
-                
-                FruitListView().ignoresSafeArea(.all)
-            }
             
+            
+            
+            
+        }.onAppear {
+            //runStructTest()//StructQuest
+            //testChageValue()//ClassQuest
+            //shoppingCartTest()//ShoppingCartQuest
+            //DiscountTest()//DiscountQuest
         }
-        
-        
-        
-        
     }
-    
 }
 
 #Preview {
