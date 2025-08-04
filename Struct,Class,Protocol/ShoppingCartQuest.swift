@@ -15,7 +15,7 @@ class ShoppingCart{
         print("\(Product.name)을 장바구니에 추가했습니다.")
     }
     func removeItem(at index: Int){
-        if items.indices.contains(index){
+        if items.indices.contains(index){ // 다른 인덱스 확인 방법, count
             let removeItem = items.remove(at: index)
             
             print("\(removeItem.name)을 장바구니에서 제거했습니다.")

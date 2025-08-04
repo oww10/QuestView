@@ -15,10 +15,7 @@ struct ContentView: View {
             
             
         }.onAppear {
-            //runStructTest()//StructQuest
-            //testChageValue()//ClassQuest
-            //shoppingCartTest()//ShoppingCartQuest
-            //DiscountTest()//DiscountQuest
+            DataMemoryTest()
         }
     }
 }

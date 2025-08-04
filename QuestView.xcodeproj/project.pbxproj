@@ -40,6 +40,11 @@
 			path = TableView;
 			sourceTree = "<group>";
 		};
+		5027A2482E40753900F491C8 /* DataMemoryARC */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = DataMemoryARC;
+			sourceTree = "<group>";
+		};
 		5058E1272E38A31C00B97168 /* QuestView */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = QuestView;
@@ -91,6 +96,7 @@
 				5058E1352E38A31D00B97168 /* QuestViewTests */,
 				5058E13F2E38A31D00B97168 /* QuestViewUITests */,
 				5058E1262E38A31C00B97168 /* Products */,
+				5027A2482E40753900F491C8 /* DataMemoryARC */,
 			);
 			sourceTree = "<group>";
 		};
@@ -122,6 +128,7 @@
 			fileSystemSynchronizedGroups = (
 				501B188C2E3CA77300750D68 /* Struct,Class,Protocol */,
 				501B18932E3CA79200750D68 /* TableView */,
+				5027A2482E40753900F491C8 /* DataMemoryARC */,
 				5058E1272E38A31C00B97168 /* QuestView */,
 			);
 			name = QuestView;
