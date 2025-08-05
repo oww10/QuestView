@@ -6,7 +6,7 @@ import UIKit
 
 struct ContentView: View {
     
-    
+    let captureManager = captureVariable()
     
     var body: some View {
         VStack {
@@ -15,7 +15,7 @@ struct ContentView: View {
             
             
         }.onAppear {
-            DataMemoryTest()
+            DogCatExample()
         }
     }
 }
