@@ -62,26 +62,23 @@ class captureVariable{
     
     
     func runCaptureTest() {
-        
-        print("--- 클로저 캡처 테스트 시작 ---")
-        
         var counter = 0
-        print("1. 초기 counter 값: \(counter)")
+        print("초기 counter 값: \(counter)")
         
         let incrementCounter = {
             counter += 1
             print("   -> 클로저 실행! counter가 \(counter)로 변경됨")
         }
         
-        print("\n2. 클로저가 생성되었습니다.")
+        print("클로저가 생성되었습니다.")
         
-        print("\n3. 첫 번째 incrementCounter() 호출")
+        print("첫 번째 incrementCounter() 호출")
         incrementCounter()
         
-        print("\n4. 두 번째 incrementCounter() 호출")
+        print("두 번째 incrementCounter() 호출")
         incrementCounter()
         
-        print("\n5. 최종 counter 값: \(counter)")
+        print("최종 counter 값: \(counter)")
 
     }
 }

@@ -15,7 +15,8 @@ struct ContentView: View {
             
             
         }.onAppear {
-            DogCatExample()
+            captureManager.runCaptureTest()
+            
         }
     }
 }
