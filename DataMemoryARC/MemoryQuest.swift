@@ -46,7 +46,7 @@ func DataMemoryTest(){
     print("-> [main] 함수 스택 프레임이 Stack에 쌓입니다.")
     
     // valueType은 값 타입이므로 데이터 자체가 Stack에 저장됩니다.
-    var valueType = 20
+    let valueType = 20
     print("-> [main] Stack에 지역 변수 'valueType'(\(valueType))이 저장되었습니다.")
     
     // 'data' 영역의 변수에 접근합니다.

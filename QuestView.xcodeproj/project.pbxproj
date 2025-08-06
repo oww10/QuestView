@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		50305F6F2E4318AC00CE3DA1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50305F682E4318AC00CE3DA1 /* ContentView.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		5058E1332E38A31D00B97168 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -24,6 +28,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		50305F682E4318AC00CE3DA1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		5058E1252E38A31C00B97168 /* QuestView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QuestView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5058E1322E38A31D00B97168 /* QuestViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QuestViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5058E13C2E38A31D00B97168 /* QuestViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QuestViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -43,6 +48,16 @@
 		5027A2482E40753900F491C8 /* DataMemoryARC */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = DataMemoryARC;
+			sourceTree = "<group>";
+		};
+		50305F862E4318E100CE3DA1 /* AsyncGeneric */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = AsyncGeneric;
+			sourceTree = "<group>";
+		};
+		50305F8E2E43329A00CE3DA1 /* Combine */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Combine;
 			sourceTree = "<group>";
 		};
 		5058E1272E38A31C00B97168 /* QuestView */ = {
@@ -95,14 +110,17 @@
 		5058E11C2E38A31C00B97168 = {
 			isa = PBXGroup;
 			children = (
-				501B18932E3CA79200750D68 /* TableView */,
+				50305F862E4318E100CE3DA1 /* AsyncGeneric */,
+				50305F8E2E43329A00CE3DA1 /* Combine */,
+				50ADBD462E41C8A800A9C1BA /* ClosuresOPP */,
+				5027A2482E40753900F491C8 /* DataMemoryARC */,
 				501B188C2E3CA77300750D68 /* Struct,Class,Protocol */,
+				501B18932E3CA79200750D68 /* TableView */,
 				5058E1272E38A31C00B97168 /* QuestView */,
 				5058E1352E38A31D00B97168 /* QuestViewTests */,
 				5058E13F2E38A31D00B97168 /* QuestViewUITests */,
+				50305F682E4318AC00CE3DA1 /* ContentView.swift */,
 				5058E1262E38A31C00B97168 /* Products */,
-				5027A2482E40753900F491C8 /* DataMemoryARC */,
-				50ADBD462E41C8A800A9C1BA /* ClosuresOPP */,
 			);
 			sourceTree = "<group>";
 		};
@@ -135,6 +153,8 @@
 				501B188C2E3CA77300750D68 /* Struct,Class,Protocol */,
 				501B18932E3CA79200750D68 /* TableView */,
 				5027A2482E40753900F491C8 /* DataMemoryARC */,
+				50305F862E4318E100CE3DA1 /* AsyncGeneric */,
+				50305F8E2E43329A00CE3DA1 /* Combine */,
 				5058E1272E38A31C00B97168 /* QuestView */,
 				50ADBD462E41C8A800A9C1BA /* ClosuresOPP */,
 			);
@@ -264,6 +284,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				50305F6F2E4318AC00CE3DA1 /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
